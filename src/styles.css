@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital@1&family=Montserrat&display=swap");
+
+:root {
+  --main-color: #388087;
+  --main-color-bg-green: #3aafa9;
+  --main-color-bg2-green: #2b7a78;
+  --main-color-black: #17252a;
+  --main-color-white1: #def2f1;
+  --main-color-white2: #feffff;
+}
+
+.bd1 {
+  background-color: var(--main-color-bg-green);
+}
+
+.wid-75 {
+  width: 75%;
+}
+
+.font1 {
+  font-family: "Anton", sans-serif;
+}
+
+.main-fontcolor-blk {
+  text-color: #17252a;
+}
+
+.main-fontcolor-white {
+  text-color: #feffff;
+}

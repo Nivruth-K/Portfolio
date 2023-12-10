@@ -1,0 +1,204 @@
+<div class="row mb-4 mt-3">
+  <div class="col-2 font1 para-2 badge text-bg-dark">Projects</div>
+</div>
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-12 list-group">
+      <div class="font1 para-2">Interview Scheduler App:</div>
+      <div class="para-1 card mt-4">
+        <h2 class="font1 text-dark mt-4 mb-3 text-center">
+          Project Description
+        </h2>
+        <p class="text-light card-body bg-dark mb-0">
+          The Student Interview Scheduler app is a dedicated platform designed
+          to assist students in organizing and managing their scheduled
+          interviews within an academic or institutional setting. The app
+          provides students with a convenient interface to keep track of
+          interview dates, times, and locations, ensuring they are well-prepared
+          and informed for their upcoming interviews.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4 mt-3">
+      <button
+        class="btn btn-dark btn-lg"
+        type="button"
+        (click)="toggleCollapse('Technologies1')"
+        [attr.aria-expanded]="!technologiesCollapsed ? 'true' : 'false'"
+        [attr.aria-controls]="'Technologies1'"
+      >
+        Technologies
+      </button>
+      <div
+        [ngClass]="{
+          collapse: !technologiesCollapsed,
+          show: technologiesCollapsed
+        }"
+        id="Technologies1"
+      >
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <b>Frontend:</b> jQuery, HTML5, Bootstrap CSS3,
+            </li>
+            <li class="list-group-item">JavaScript : Jquery</li>
+            <li class="list-group-item">
+              <b>Backend:</b> .NET Core v6.0 (Razor pages), C#, T-SQL (Microsoft
+              SQL Server), Entity-Framework Core, Services, Sessions, View
+              Components
+            </li>
+            <li class="list-group-item">
+              <b> Database:</b> Microsoft SQL Server for efficient data storage
+              and retrieval
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4 mt-3">
+      <button
+        class="btn btn-dark btn-lg"
+        type="button"
+        (click)="toggleCollapse('KeyFeatures1')"
+        [attr.aria-expanded]="!keyFeaturesCollapsed ? 'true' : 'false'"
+        [attr.aria-controls]="'KeyFeatures1'"
+      >
+        Key Features
+      </button>
+      <div
+        [ngClass]="{
+          collapse: !keyFeaturesCollapsed,
+          show: keyFeaturesCollapsed
+        }"
+        id="KeyFeatures1"
+      >
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <b>Interview Schedule View:</b> Centralized dashboard displaying
+              all scheduled interviews with specific details
+            </li>
+            <li class="list-group-item">
+              <b>Interview Schedule Create:</b>User can register the interview
+              details.
+            </li>
+            <li class="list-group-item">
+              <b>User Authentication:</b> Secure user registration and login
+              functionality to safeguard student data and interview details.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4 mt-3">
+      <a
+        class="btn btn-dark btn-lg"
+        href="https://github.com/Nivruth-K/InterviewScheduler.git"
+        >Git Hub</a
+      >
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 list-group">
+      <div class="font1 para-2">Play Station Website(Front end):</div>
+      <div class="para-1 card mt-4">
+        <h2 class="font1 text-dark mt-4 mb-3 text-center">
+          Project Description
+        </h2>
+        <p class="text-light card-body bg-dark mb-0">
+          The PlayStation Website Replica project is a frontend-focused endeavor
+          aimed at recreating the user interface and design of the official
+          PlayStation website. This project showcases my proficiency in frontend
+          technologies and UI/UX design principles by replicating the look and
+          feel of the PlayStation website's frontend.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4 mt-3">
+      <button
+        class="btn btn-dark btn-lg"
+        type="button"
+        (click)="toggleCollapse('Technologies2')"
+        [attr.aria-expanded]="!technologies2Collapsed ? 'true' : 'false'"
+        [attr.aria-controls]="'Technologies2'"
+      >
+        Technologies
+      </button>
+      <div
+        [ngClass]="{
+          collapse: !technologies2Collapsed,
+          show: technologies2Collapsed
+        }"
+        id="Technologies2"
+      >
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <b>Frontend:</b> HTML5, CSS3, TypeScript
+            </li>
+            <li class="list-group-item">JavaScript : TypeScript</li>
+            <li class="list-group-item">
+              <b>Frontend Frameworks/Libraries:</b> Angular 15, Bootstrap
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4 mt-3">
+      <button
+        class="btn btn-dark btn-lg"
+        type="button"
+        (click)="toggleCollapse('KeyFeatures2')"
+        [attr.aria-expanded]="!keyFeatures2Collapsed ? 'true' : 'false'"
+        [attr.aria-controls]="'KeyFeatures2'"
+      >
+        Key Features
+      </button>
+      <div
+        [ngClass]="{
+          collapse: !keyFeatures2Collapsed,
+          show: keyFeatures2Collapsed
+        }"
+        id="KeyFeatures2"
+      >
+        <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <b>Homepage Replica:</b> Recreated the layout and design of the
+              PlayStation website's homepage, including banners, promotional
+              sections, and navigational elements.
+            </li>
+            <li class="list-group-item">
+              <b>Product Pages: </b>Emulated product pages for various consoles,
+              games, accessories, and services, maintaining the visual
+              consistency and layout of the original website.
+            </li>
+            <li class="list-group-item">
+              <b>Aesthetic Consistency:</b> Matched color schemes, typography,
+              and visual elements to replicate the overall aesthetics of the
+              PlayStation website.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-4 mt-3">
+      <a
+        class="btn btn-dark btn-lg"
+        href="https://github.com/Nivruth-K/PlayStation_App.git"
+        >Git Hub</a
+      >
+    </div>
+  </div>
+</div>

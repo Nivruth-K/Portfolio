@@ -1,0 +1,14 @@
+.para-1 {
+  color: var(--main-color-white1);
+  font-size: 32px;
+}
+
+.para-2 {
+  color: var(--main-color-black);
+  font-size: 56px;
+}
+
+.para-3 {
+  color: var(--main-color-bg-green1);
+  font-size: 21px;
+}

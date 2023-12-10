@@ -1,0 +1,19 @@
+.nav-size {
+  height: 150px;
+}
+
+.nav-font-size {
+  font-size: 48px;
+}
+
+.nav-colr-white {
+  color: var(--main-color-white2);
+}
+
+.nav-mright {
+  margin-right: 20px;
+}
+
+.nav-mleft {
+  margin-left: 20px;
+}

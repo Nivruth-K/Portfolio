@@ -1,0 +1,35 @@
+<nav class="nav-size navbar navbar-expand-lg nav1">
+  <div class="nav-size container-fluid font1 justify-content-start">
+    <div class="col-7">
+      <a class="navbar-brand nav-font-size nav-colr-white" routerLink="/home"
+        >Portfolio</a
+      >
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="col-1 btn btn-dark rounded-pill nav-mright">
+      <a class="nav-link active" routerLink="/home">Home</a>
+    </div>
+
+    <div class="col-1 btn btn-outline-dark rounded-pill nav-mright">
+      <a class="nav-link" routerLink="/projects">Projects</a>
+    </div>
+    <div class="col-1 btn btn-outline-dark rounded-pill nav-mright">
+      <a class="nav-link" routerLink="/resume">Resume</a>
+    </div>
+   
+    <div class="col-1 btn btn-outline-dark rounded-pill">
+      <a class="nav-link" routerLink="/skills">Skills</a>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
